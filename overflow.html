@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow/title></title>
+    <style>
+        .box{
+            width: 500px;
+            height: 200px;
+            border: 3px solid tomato;
+            overflow: scroll;
+            /* overflow-y: scroll; */
+            overflow-y: auto;
+        }
+        /* #box-1{
+            overflow: scroll;
+            overflow-x: hidden;
+        } */
+         .ellipsis{
+            width: 300px;
+            border: 2px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: ellipsis; */
+            text-overflow: clip;
+         }
+    </style>
+</head>
+<body>
+    <header title="Eikhane Full lekha dekhabe" class="ellipsis">
+        <p>I am a serious learner. I  am Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in praesentium, quo vel quaerat similique alias ipsa earum aliquam delectus!</p>
+    </header>
+    <section>
+        <div id="box-1" class="box">
+            <h2>My Text Box 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam dolorem eligendi quisquam? Exercitationem minus at magni esse, accusamus molestiae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi nemo deleniti at veniam itaque vitae, ducimus labore, corporis, cupiditate consequuntur quibusdam obcaecati nesciunt eum ad cumque magni optio accusantium?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla veritatis eius, iste ad vel explicabo perspiciatis quasi libero expedita veniam! Animi numquam soluta tenetur similique, sapiente dolorum impedit? Aspernatur, architecto?
+            </p>
+        </div>
+        <div class="box">
+            <h2>My Text Box 2</h2>
+            <p>Aperiam iure accusamus quisquam! Commodi doloremque debitis, provident ratione illo velit pariatur incidunt voluptatum molestiae cupiditate! Corporis soluta consectetur quo!consectetur adipisicing elit. Facere aperiam dolorem eligendi quisquam? Exercitationem minus at magni esse, accusamus molestiae!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi nemo deleniti at veniam itaque vitae, ducimus labore, corporis, cupiditate consequuntur quibusdam obcaecati nesciunt eum ad cumque magni optio accusantium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquid enim reiciendis nisi velit explicabo in magni necessitatibus libero ipsum, amet cumque illo rerum minus earum cupiditate aliquam, eligendi officia!</p>
+        </div>
+        <div class="box">
+            <h2>box -3</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, non sapiente. Accusantium harum nostrum eligendi iusto cum minus veniam dolore repudiandae itaque nam excepturi accusamus, error praesentium aut cupiditate nobis optio, suscipit vitae tenetur velit corrupti, obcaecati quo perferendis asperiores. Consequuntur quod suscipit at voluptatibus esse eaque. Aliquam, ex rerum.
+        </div>
+    </section>
+</body>
+</html>
